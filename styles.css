@@ -40,6 +40,15 @@ main {
     padding: 2rem;
 }
 
+/* Styling for centered content and faint box */
+.centered-box {
+    text-align: center;
+    background-color: rgba(240, 208, 181, 0.4); /* Faint box color */
+    padding: 1.5rem;
+    border: 1px solid rgba(240, 208, 181, 0.6); /* Slightly darker box border */
+    border-radius: 5px;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
