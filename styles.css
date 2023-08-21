@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ede3; /* Light brownish background color */
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffe6cc; /* Light orange header background */
+}
+
+nav {
+    background-color: #f0d0b5; /* Lighter orange navigation background */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray text color */
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #ffe6cc; /* Light orange background on hover */
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0d0b5; /* Lighter orange footer background */
+}
